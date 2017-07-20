@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * Lemma.java
  * 
- * @todo : make it allow not distinct types and wfs The Lemma consists of
+ * todo : make it allow not distinct types and wfs The Lemma consists of
  *       alternative word-forms and syntactic and morphological information and
  *       allows its access.
  *       <p>

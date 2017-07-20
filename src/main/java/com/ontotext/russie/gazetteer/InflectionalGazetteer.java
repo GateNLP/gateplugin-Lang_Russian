@@ -548,8 +548,6 @@ public class InflectionalGazetteer extends AbstractLanguageAnalyser implements
   /**
    * Adds to the POS Tagger model another wordForm with its type.
    * 
-   * @param wordForm
-   *          the word-form
    * @param lemma
    *          the lemma to be added
    * @return true if successful
