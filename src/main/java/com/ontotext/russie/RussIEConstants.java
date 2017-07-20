@@ -1,6 +1,7 @@
 package com.ontotext.russie;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -77,7 +78,8 @@ final static String [] arrVowels = {
   "\u044F","\u042F"
 };
 
-static final Set<String> SET_OF_VOWELS = new HashSet<String>(Arrays.asList(arrVowels));
+  static final Set<String> SET_OF_VOWELS = Collections
+      .unmodifiableSet(new HashSet<String>(Arrays.asList(arrVowels)));
 
 /*Consonant Suffixes*/
 final static String [] arrConsonantSuffixes = {
