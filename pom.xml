@@ -16,6 +16,9 @@
 	<groupId>uk.ac.gate.plugins</groupId>
 	<artifactId>lang-russian</artifactId>
 	<version>8.5-SNAPSHOT</version>
+	
+	<name>Language: Russian</name>
+	<description>Support for processing Russian documents</name>
 
 	<licenses>
 		<license>
