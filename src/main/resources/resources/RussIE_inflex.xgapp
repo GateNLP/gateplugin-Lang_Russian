@@ -1,28 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gate.util.persistence.GateApplication>
-  <urlList class='gate.util.persistence.CollectionPersistence'>
+  <urlList class="gate.util.persistence.CollectionPersistence">
     <localList>
       <gate.creole.Plugin-Maven>
         <group>uk.ac.gate.plugins</group>
         <artifact>annie</artifact>
-        <version>8.5-SNAPSHOT</version>
+        <version>8.6</version>
       </gate.creole.Plugin-Maven>
       <gate.creole.Plugin-Maven>
         <group>uk.ac.gate.plugins</group>
         <artifact>lang-russian</artifact>
-        <version>8.5-SNAPSHOT</version>
+        <version>8.6</version>
       </gate.creole.Plugin-Maven>
     </localList>
     <collectionType>java.util.ArrayList</collectionType>
   </urlList>
-  <application class='gate.util.persistence.ConditionalControllerPersistence'>
+  <application class="gate.util.persistence.ConditionalControllerPersistence">
     <resourceType>gate.creole.ConditionalSerialAnalyserController</resourceType>
     <resourceName>RussIE + Inflectional Gazetteer</resourceName>
-    <initParams class='gate.util.persistence.MapPersistence'>
+    <initParams class="gate.util.persistence.MapPersistence">
       <mapType>gate.util.SimpleFeatureMapImpl</mapType>
       <localMap />
     </initParams>
-    <features class='gate.util.persistence.MapPersistence'>
+    <features class="gate.util.persistence.MapPersistence">
       <mapType>gate.util.SimpleFeatureMapImpl</mapType>
       <localMap>
         <entry>
@@ -37,20 +37,20 @@
         </entry>
       </localMap>
     </features>
-    <prList class='gate.util.persistence.CollectionPersistence'>
+    <prList class="gate.util.persistence.CollectionPersistence">
       <localList>
         <gate.util.persistence.PRPersistence>
           <resourceType>gate.creole.annotdelete.AnnotationDeletePR</resourceType>
           <resourceName>doc reset</resourceName>
-          <initParams class='gate.util.persistence.MapPersistence'>
+          <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap />
           </initParams>
-          <features class='gate.util.persistence.MapPersistence'>
+          <features class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap />
           </features>
-          <runtimeParams class='gate.util.persistence.MapPersistence'>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -76,7 +76,7 @@
         <gate.util.persistence.LanguageAnalyserPersistence>
           <resourceType>gate.creole.gazetteer.DefaultGazetteer</resourceType>
           <resourceName>gazetteer</resourceName>
-          <initParams class='gate.util.persistence.MapPersistence'>
+          <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -99,11 +99,11 @@
               </entry>
             </localMap>
           </initParams>
-          <features class='gate.util.persistence.MapPersistence'>
+          <features class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap />
           </features>
-          <runtimeParams class='gate.util.persistence.MapPersistence'>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -120,7 +120,7 @@
         <gate.util.persistence.LanguageAnalyserPersistence>
           <resourceType>gate.creole.gazetteer.DefaultGazetteer</resourceType>
           <resourceName>english gazetteer</resourceName>
-          <initParams class='gate.util.persistence.MapPersistence'>
+          <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -143,11 +143,11 @@
               </entry>
             </localMap>
           </initParams>
-          <features class='gate.util.persistence.MapPersistence'>
+          <features class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap />
           </features>
-          <runtimeParams class='gate.util.persistence.MapPersistence'>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -164,7 +164,7 @@
         <gate.util.persistence.LanguageAnalyserPersistence>
           <resourceType>com.ontotext.russie.gazetteer.InflectionalGazetteer</resourceType>
           <resourceName>Inflectional Gazetteer</resourceName>
-          <initParams class='gate.util.persistence.MapPersistence'>
+          <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -194,11 +194,11 @@
               </entry>
             </localMap>
           </initParams>
-          <features class='gate.util.persistence.MapPersistence'>
+          <features class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap />
           </features>
-          <runtimeParams class='gate.util.persistence.MapPersistence'>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -211,15 +211,15 @@
         <gate.util.persistence.LanguageAnalyserPersistence>
           <resourceType>gate.creole.tokeniser.DefaultTokeniser</resourceType>
           <resourceName>tokeniser</resourceName>
-          <initParams class='gate.util.persistence.MapPersistence'>
+          <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-            <localMap/>
+            <localMap />
           </initParams>
-          <features class='gate.util.persistence.MapPersistence'>
+          <features class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap />
           </features>
-          <runtimeParams class='gate.util.persistence.MapPersistence'>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -236,15 +236,15 @@
         <gate.util.persistence.LanguageAnalyserPersistence>
           <resourceType>gate.creole.splitter.SentenceSplitter</resourceType>
           <resourceName>sentence splitter</resourceName>
-          <initParams class='gate.util.persistence.MapPersistence'>
+          <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-            <localMap/>
+            <localMap />
           </initParams>
-          <features class='gate.util.persistence.MapPersistence'>
+          <features class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap />
           </features>
-          <runtimeParams class='gate.util.persistence.MapPersistence'>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -265,7 +265,7 @@
         <gate.util.persistence.LanguageAnalyserPersistence>
           <resourceType>com.ontotext.russie.morph.POSTagger</resourceType>
           <resourceName>russ POS tagger</resourceName>
-          <initParams class='gate.util.persistence.MapPersistence'>
+          <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -284,11 +284,11 @@
               </entry>
             </localMap>
           </initParams>
-          <features class='gate.util.persistence.MapPersistence'>
+          <features class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap />
           </features>
-          <runtimeParams class='gate.util.persistence.MapPersistence'>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -301,7 +301,7 @@
         <gate.util.persistence.LanguageAnalyserPersistence>
           <resourceType>gate.creole.Transducer</resourceType>
           <resourceName>NER grammars</resourceName>
-          <initParams class='gate.util.persistence.MapPersistence'>
+          <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -316,11 +316,11 @@
               </entry>
             </localMap>
           </initParams>
-          <features class='gate.util.persistence.MapPersistence'>
+          <features class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap />
           </features>
-          <runtimeParams class='gate.util.persistence.MapPersistence'>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
               <entry>
@@ -341,39 +341,39 @@
       </localList>
       <collectionType>java.util.ArrayList</collectionType>
     </prList>
-    <strategiesList class='gate.util.persistence.CollectionPersistence'>
+    <strategiesList class="gate.util.persistence.CollectionPersistence">
       <localList>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
           <runMode>1</runMode>
-          <pr reference='../../../../prList/localList/gate.util.persistence.PRPersistence' class='gate.util.persistence.PRPersistence' />
+          <pr reference="../../../../prList/localList/gate.util.persistence.PRPersistence" class="gate.util.persistence.PRPersistence" />
         </gate.util.persistence.AnalyserRunningStrategyPersistence>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
           <runMode>1</runMode>
-          <pr reference='../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence' class='gate.util.persistence.LanguageAnalyserPersistence' />
+          <pr reference="../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence" class="gate.util.persistence.LanguageAnalyserPersistence" />
         </gate.util.persistence.AnalyserRunningStrategyPersistence>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
           <runMode>1</runMode>
-          <pr reference='../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[2]' class='gate.util.persistence.LanguageAnalyserPersistence' />
+          <pr reference="../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[2]" class="gate.util.persistence.LanguageAnalyserPersistence" />
         </gate.util.persistence.AnalyserRunningStrategyPersistence>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
           <runMode>1</runMode>
-          <pr reference='../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[3]' class='gate.util.persistence.LanguageAnalyserPersistence' />
+          <pr reference="../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[3]" class="gate.util.persistence.LanguageAnalyserPersistence" />
         </gate.util.persistence.AnalyserRunningStrategyPersistence>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
           <runMode>1</runMode>
-          <pr reference='../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[4]' class='gate.util.persistence.LanguageAnalyserPersistence' />
+          <pr reference="../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[4]" class="gate.util.persistence.LanguageAnalyserPersistence" />
         </gate.util.persistence.AnalyserRunningStrategyPersistence>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
           <runMode>1</runMode>
-          <pr reference='../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[5]' class='gate.util.persistence.LanguageAnalyserPersistence' />
+          <pr reference="../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[5]" class="gate.util.persistence.LanguageAnalyserPersistence" />
         </gate.util.persistence.AnalyserRunningStrategyPersistence>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
           <runMode>1</runMode>
-          <pr reference='../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[6]' class='gate.util.persistence.LanguageAnalyserPersistence' />
+          <pr reference="../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[6]" class="gate.util.persistence.LanguageAnalyserPersistence" />
         </gate.util.persistence.AnalyserRunningStrategyPersistence>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
           <runMode>1</runMode>
-          <pr reference='../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[7]' class='gate.util.persistence.LanguageAnalyserPersistence' />
+          <pr reference="../../../../prList/localList/gate.util.persistence.LanguageAnalyserPersistence[7]" class="gate.util.persistence.LanguageAnalyserPersistence" />
         </gate.util.persistence.AnalyserRunningStrategyPersistence>
       </localList>
       <collectionType>java.util.ArrayList</collectionType>
